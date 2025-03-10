@@ -11,10 +11,9 @@
 
     .header__logo {
       font-size: 3.5rem;
+      text-transform: uppercase;
       text-align: center;
       font-weight: bold;
-      color: var(--text-color);
-      text-transform: uppercase;
     }
 
     .header__menu {
@@ -22,9 +21,9 @@
       flex-direction: column;
 
       @media (min-width: 600px) {
-        flex: 1;
         flex-direction: row;
         justify-content: space-around;
+        flex: 1;
       }
 
       .menu__item {
@@ -51,10 +50,10 @@
 
     .header__title {
       font-size: 3.5rem;
-      text-align: center;
-      font-weight: bold;
       color: var(--accent-color);
       text-transform: uppercase;
+      text-align: center;
+      font-weight: bold;
     }
   }
 }
